@@ -1,0 +1,118 @@
+
+#game {
+	background-image: url("../images/breakout_bg.png");
+	width: 500px;
+	height: 600px;	
+	font-size: 40px;
+	border: 1px solid white;
+	box-shadow: 0px 0px 20px 4px #000000;
+	margin: auto;
+}
+p{
+    font-family: Arial, sans-serif;
+	font-size: .7em;
+	color:black;
+	-webkit-text-stroke: .04em rgb(255,255,255);
+}
+img.resize {
+	width:200px;
+	height:40px;
+  }
+span{
+	padding:5px;
+}
+#countdown{
+	color: white;
+	text-align: center;
+    line-height: 600px;
+    vertical-align: middle;
+}
+#game-info{
+	padding: 1px;
+    width: 498px;
+    background-color: rgb(255,100,0,0.1);
+    position: absolute;
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid white;
+    font-size: 20px;
+    word-spacing: 100px;
+}
+
+#game .screen {
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+#game .screen.active {
+	display: block;
+}
+
+#main-menu {
+	padding-top: 1em;
+	cursor: pointer;
+	font-size: 0.75em;
+}
+
+ol.menu, ul.menu {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+ol.menu li, ul.menu li {
+	margin: 0.8em 0;
+}
+
+ol.menu li button,ul.menu li button {
+	font-family: Arial, sans-serif;
+	font-size: 0.6em;
+	color: #CECEF6;
+	width: 10em;
+	height: 1.5em;
+	background: rgb(0, 0, 0);
+	border: 0.1em solid rgb(255, 0, 0);
+	border-radius: 0.5em;
+	box-shadow: 0.2em 0.2em 0.3em rgb(0, 0, 0);
+}
+ol.menu li span, ul.menu li span {
+	font-family: Arial, sans-serif;
+	font-size: 1.5em;
+	color:black;
+	-webkit-text-stroke: .04em rgb(255,0,0);
+}
+ol.menu li button:hover, ul.menu li button:hover {
+	background: rgba(54, 54, 54, 0.795);
+}
+
+ol.menu li button:active, ul.menu li button:active {
+	color: #CECEF6;
+	background: rgb(0, 0, 0);
+}
+ol.menu li {
+	font-family: Arial, sans-serif;
+	font-size: .7em;
+	color:black;
+	-webkit-text-stroke: .04em rgb(255,255,255);
+}
+
+#game div h1 {
+	font-size: 1em;
+	text-align: center;
+}
+
+#high-scores ol {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#game div p {
+	font-size: 0.5em;
+}
+
+#about p {
+	text-align: center;
+}
